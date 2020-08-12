@@ -1,5 +1,7 @@
 ## Getting started
 
+
+Install node modules using command yarn install
 **For ios** :Running the following command should trigger ios simulator and load the app into it
 
 yarn ios
