@@ -1,0 +1,22 @@
+{
+    "expression": "v1/login",
+    "method": "POST",
+    "name": "login",
+    "isArray": true,
+    "responses": {
+        "default": {
+            "default": true,
+            "status": 200,
+            "data":{
+                "msg":"success"
+            }
+        },
+            "400 incorrect username/password":{
+                "status": 400,
+                "data":{
+                    "error":"invalid credintials",
+                    "error_description":"Authentication failed"
+                }
+            }
+            }
+        }

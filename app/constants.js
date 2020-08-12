@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import {Platform} from 'react-native';
 import {useIsEmulator} from 'react-native-device-info';
 

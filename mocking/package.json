@@ -1,0 +1,20 @@
+{
+  "name": "mocking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm run build -- --watch",
+    "start": "node -r esm ./src/ng-apimock.server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "ng-apimock": "^1.4.9",
+    "node-fetch": "^2.6.0",
+    "tcp-port-used": "^1.0.1"
+  }
+}

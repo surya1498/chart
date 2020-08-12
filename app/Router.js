@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
