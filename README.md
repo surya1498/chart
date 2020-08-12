@@ -12,7 +12,10 @@ yarn android
 
 **Mocking environment set up**
 
-to run the mocking server navigate to mocking folder and run below command which starts a mocking server and we can change the mocking app by entering http://localhost:2222/ in browser
+
+Mocking server has been set up to mock api calls 
+
+to run the mocking server navigate to mocking folder in the project and run below command which starts a mocking server and we can mock api's by entering http://localhost:2222/ in browser
 
 yarn start
 
